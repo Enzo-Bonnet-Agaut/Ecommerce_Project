@@ -28,16 +28,17 @@ const fetchProducts = async () => {
 };
 
 
-// Affiche les produits
 const displayProducts = products => {
     const productList = document.getElementById('product-list');
     productList.innerHTML = products.map(p => `
         <div class="product">
+            <img src="/static/${p.image}" alt="${p.name}" class="product-image">
             <h2>${p.name}</h2>
             <p>${(p.price / 100).toFixed(2)} €</p>
             <button onclick="buyProduct(${p.id})">Acheter</button>
         </div>`).join('');
 };
+
 
 
 // Achète un produit
