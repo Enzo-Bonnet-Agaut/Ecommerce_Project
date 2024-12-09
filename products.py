@@ -3,6 +3,6 @@
 
 
 PRODUCTS = [
-    {"id": 1, "name": "Produit 1", "price": 2300},  # 23,00 €
-    {"id": 2, "name": "Produit 2", "price": 4800},  # 48,00 €
+    {"id": 1, "name": "Bitcoin", "price": 8000000},  # 23,00 €
+    {"id": 2, "name": "Pain", "price": 4800},  # 48,00 €
 ]
